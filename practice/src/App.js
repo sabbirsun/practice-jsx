@@ -3,15 +3,18 @@ import Home from './Pages/Home';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Feedback from './Pages/Feedback';
+import Fragment from './Pages/Fragment';
+import React from 'react';
 
 function App() {
   return (
-    <div>
+    <>
       <Home />
       <About />
       <Contact />
       <Feedback />
-    </div>
+      <Fragment />
+    </>
   );
 }
 
