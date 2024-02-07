@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Contact() {
+function Contact(Contactprops) {
   return (
     <div>
-        <h3>Contact</h3>
+        My name is {Contactprops.name} & My number is {Contactprops.number}
     </div>
   )
 }
