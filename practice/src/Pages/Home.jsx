@@ -1,11 +1,11 @@
 import React from 'react'
+const AboutMe = "My name is Sabbir. I am a programmer.";
 
 function Home() {
   return (
     <div>
-        <h1>Header</h1>
-        <h1>Sidebar</h1>
-        <h1>Footer</h1>
+       <h1>{AboutMe}</h1>
+       <h1>{2*10}</h1>
     </div>
   )
 }
