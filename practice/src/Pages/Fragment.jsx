@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Fragments() {
+function Fragment() {
   return (
     <>
         <h1>Fragments</h1>
@@ -8,4 +8,4 @@ function Fragments() {
   )
 }
 
-export default Fragments
+export default Fragment
