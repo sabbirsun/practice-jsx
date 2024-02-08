@@ -10,6 +10,7 @@ import Focus from './Pages/Focus';
 import Keyboard from './Pages/Keyboard';
 import Fiter from './Pages/Fiter';
 import WelComeAdmin from './Pages/WelComeAdmin'
+import Style from './Pages/Style';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Keyboard />
       <Fiter />
       <WelComeAdmin />
+      <Style />
     </>
   );
 }
