@@ -7,6 +7,7 @@ import Fragment from './Pages/Fragment';
 import React from 'react';
 import Clipboardoncopy from './Pages/Clipboardoncopy';
 import Focus from './Pages/Focus';
+import Keyboard from './Pages/Keyboard';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Fragment />
       <Clipboardoncopy />
       <Focus />
+      <Keyboard />
     </>
   );
 }
