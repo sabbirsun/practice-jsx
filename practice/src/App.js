@@ -12,6 +12,7 @@ import Fiter from './Pages/Fiter';
 import WelComeAdmin from './Pages/WelComeAdmin'
 import Style from './Pages/Style';
 import ReactBootstrap from './Pages/ReactBootstrap';
+import Input from './Pages/Input';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       <WelComeAdmin />
       <Style />
       <ReactBootstrap />
+      <Input />
     </>
   );
 }
