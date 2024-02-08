@@ -6,6 +6,7 @@ import Feedback from './Pages/Feedback';
 import Fragment from './Pages/Fragment';
 import React from 'react';
 import Clipboardoncopy from './Pages/Clipboardoncopy';
+import Focus from './Pages/Focus';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Feedback />
       <Fragment />
       <Clipboardoncopy />
+      <Focus />
     </>
   );
 }
