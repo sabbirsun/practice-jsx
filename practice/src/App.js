@@ -8,6 +8,8 @@ import React from 'react';
 import Clipboardoncopy from './Pages/Clipboardoncopy';
 import Focus from './Pages/Focus';
 import Keyboard from './Pages/Keyboard';
+import Fiter from './Pages/Fiter';
+import WelComeAdmin from './Pages/WelComeAdmin'
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
       <Clipboardoncopy />
       <Focus />
       <Keyboard />
+      <Fiter />
+      <WelComeAdmin />
     </>
   );
 }
