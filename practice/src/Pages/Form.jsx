@@ -12,6 +12,8 @@ function Form() {
             <option value="Select">JavaScript</option>
             <option value="Select">Java</option>
         </select>
+
+        <input type="date" name='CreationDate' onChange={FormChange}/>
     </div>
   )
 }
