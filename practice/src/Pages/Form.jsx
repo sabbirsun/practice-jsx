@@ -15,9 +15,18 @@ function Form() {
 
         <input type="date" name='CreationDate' onChange={FormChange} className='form-control'/>
 
-        <textarea name="About" onChange={FormChange} placeholder='Tell me your about yourself' className='form-control'>
+        <textarea name="About" onChange={FormChange} placeholder='Tell me your about yourself' className='form-control'> </textarea>
 
-        </textarea>
+            {/* Radio Button */}
+
+            <div>
+                <input type="radio" name="gender" onChange={FormChange} id="male" />
+                <label htmlFor="male">Male</label>
+                <input type="radio" name="gender" onChange={FormChange} id="female" />
+                <label htmlFor="female">Female</label>
+            </div>
+
+       
     </div>
   )
 }
