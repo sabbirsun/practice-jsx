@@ -13,7 +13,11 @@ function Form() {
             <option value="Select">Java</option>
         </select>
 
-        <input type="date" name='CreationDate' onChange={FormChange}/>
+        <input type="date" name='CreationDate' onChange={FormChange} className='form-control'/>
+
+        <textarea name="About" onChange={FormChange} placeholder='Tell me your about yourself' className='form-control'>
+
+        </textarea>
     </div>
   )
 }
