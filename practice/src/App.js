@@ -13,9 +13,10 @@ import './App.css';
 // import Style from './Pages/Style';
 // import ReactBootstrap from './Pages/ReactBootstrap';
 // import Input from './Pages/Input';
-import Form from './Pages/Form';
-import Controlled from './Pages/Controlled';
-import Expressions from './Pages/Expressions';
+// import Form from './Pages/Form';
+// import Controlled from './Pages/Controlled';
+// import Expressions from './Pages/Expressions';
+import Carousel from './Pages/BlogWebsite/Carousel';
 
 function App() {
   return (
@@ -32,10 +33,11 @@ function App() {
       <WelComeAdmin />
       <Style />
       <ReactBootstrap />
-      <Input /> */}
+      <Input /> 
       <Form />
       <Controlled />
-      <Expressions />
+      <Expressions /> */}
+      <Carousel />
     </>
   );
 }
