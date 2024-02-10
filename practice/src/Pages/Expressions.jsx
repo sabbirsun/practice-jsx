@@ -9,7 +9,8 @@ function Expressions() {
 
     return (
         <div>
-            <h4>I am a Programmer {obj.Prof}</h4>
+            <h4>I am a Programmer {obj.Prof + " " + obj.Roll}</h4>
+            <h6>{`My name is ${obj.name}, & I am Professional ${obj.Prof}, & I read in ${obj.Roll}`}</h6>
         </div>
     );
 }
