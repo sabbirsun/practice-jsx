@@ -8,7 +8,7 @@ function Form() {
         CreationDate: "",
         About: "",
         gender: "",
-        checkbox: true
+        checkbox: false
     });
 
     const FormChange = (e) => {

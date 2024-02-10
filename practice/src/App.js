@@ -14,6 +14,7 @@ import Style from './Pages/Style';
 import ReactBootstrap from './Pages/ReactBootstrap';
 import Input from './Pages/Input';
 import Form from './Pages/Form';
+import Controlled from './Pages/Controlled';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
       <ReactBootstrap />
       <Input />
       <Form />
+      <Controlled />
     </>
   );
 }
