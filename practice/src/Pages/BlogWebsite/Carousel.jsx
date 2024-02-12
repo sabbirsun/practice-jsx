@@ -1,22 +1,62 @@
 import React from 'react'
+import "./BlogCss/Blog.css"
 
 function Carousel() {
   return (
     <div>
-        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade container mt-5" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="" class="d-block w-100" alt="..." />
+        <div className='row'>
+            <div className='col-md-6'>
+                 <img src="img/natural.jpg" class="d-block w-100" alt="..." />
+            </div>
+            <div className='col-md-6'>
+                  <p className='ShortTitle'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quisquam, esse expedita nostrum aperiam dolore repellat necessitatibus dolor earum alias.</p>
+                  <h3 className='LongTitle'>Live with Sabbir Sun</h3>
+                  <p className='ShortTitle'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis doloribus natus dolor asperiores non est!</p>
+                  <p className='ChannelName'>Sabbir sun Programmer</p>
+                  <p className='ShortTitle'>12 February 2024</p>
+            </div>
+        </div>
+    </div>
+    <div class="carousel-item">
+        <div className='row'>
+            <div className='col-md-6'>
+                 <img src="img/road.jpg" class="d-block w-100" alt="..." />
+            </div>
+            <div className='col-md-6'>
+                  <p className='ShortTitle'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quisquam, esse expedita nostrum aperiam dolore repellat necessitatibus dolor earum alias.</p>
+                  <h3 className='LongTitle'>JavaScript</h3>
+                  <p className='ShortTitle'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis doloribus natus dolor asperiores non est!</p>
+                  <p className='ChannelName'>Sabbir sun Programmer</p>
+                  <p className='ShortTitle'>12 February 2024</p>
+            </div>
+        </div>
+    </div>
+    <div class="carousel-item">
+        <div className='row'>
+            <div className='col-md-6'>
+                 <img src="img/tree.jpg" class="d-block w-100" alt="..." />
+            </div>
+            <div className='col-md-6'>
+                  <p className='ShortTitle'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quisquam, esse expedita nostrum aperiam dolore repellat necessitatibus dolor earum alias.</p>
+                  <h3 className='LongTitle'>Python</h3>
+                  <p className='ShortTitle'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis doloribus natus dolor asperiores non est!</p>
+                  <p className='ChannelName'>Sabbir sun Programmer</p>
+                  <p className='ShortTitle'>12 February 2024</p>
+            </div>
+        </div>
     </div>
   
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
+    <span class="carousel-control-prev-icon"></span>
+    
   </button>
   <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
+    <span class="carousel-control-next-icon"></span>
+ 
   </button>
 </div>
     </div>
