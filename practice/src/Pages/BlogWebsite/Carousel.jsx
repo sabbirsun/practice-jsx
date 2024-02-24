@@ -1,7 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./BlogCss/Blog.css";
 
 function Carousel() {
+  const [shortTitle] = useState({
+    STitle1: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quisquam, esse expedita nostrum aperiam dolore repellat necessitatibus dolor earum alias.",
+    STitle2: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis doloribus natus dolor asperiores non est!",
+    STitle3: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quisquam, esse expedita nostrum aperiam dolore repellat necessitatibus dolor earum alias."
+  });
+  const [longTitle] = useState({
+    LTitle1: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quisquam, esse expedita nostrum aperiam dolore repellat necessitatibus dolor earum alias.",
+    LTitle2: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis doloribus natus dolor asperiores non est!",
+    LTitle3: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quisquam, esse expedita nostrum aperiam dolore repellat necessitatibus dolor earum alias."
+  });
+
   return (
     <div>
       <div id="carouselExampleFade" className="carousel slide carousel-fade container mt-5" data-bs-ride="carousel">
@@ -12,9 +23,9 @@ function Carousel() {
                 <img src="img/natural.jpg" className="d-block mh-100" style={{ width: "600px", height: "200px" }} alt="..." />
               </div>
               <div className='col-md-6'>
-                <p className='ShortTitle'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quisquam, esse expedita nostrum aperiam dolore repellat necessitatibus dolor earum alias.</p>
-                <h3 className='LongTitle'>Live with Sabbir Sun</h3>
-                <p className='ShortTitle'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis doloribus natus dolor asperiores non est!</p>
+                <p className='ShortTitle'>{shortTitle.STitle1}</p>
+                <h3 className='LongTitle'>{longTitle.LTitle1}</h3>
+                <p className='ShortTitle'></p>
                 <p className='ChannelName'>Sabbir sun Programmer</p>
                 <p className='ShortTitle'>12 February 2024</p>
               </div>
@@ -26,8 +37,8 @@ function Carousel() {
                 <img src="img/road.jpg" className="d-block mh-100" style={{ width: "600px", height: "200px" }} alt="..." />
               </div>
               <div className='col-md-6'>
-                <p className='ShortTitle'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quisquam, esse expedita nostrum aperiam dolore repellat necessitatibus dolor earum alias.</p>
-                <h3 className='LongTitle'>Live with Sabbir Sun</h3>
+                <p className='ShortTitle'>{shortTitle.STitle2}</p>
+                <h3 className='LongTitle'>{longTitle.LTitle2}</h3>
                 <p className='ShortTitle'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis doloribus natus dolor asperiores non est!</p>
                 <p className='ChannelName'>JavaScript</p>
                 <p className='ShortTitle'>12 February 2024</p>
@@ -40,8 +51,8 @@ function Carousel() {
                 <img src="img/tree.jpg" className="d-block mh-100" style={{ width: "600px", height: "200px" }} alt="..." />
               </div>
               <div className='col-md-6'>
-                <p className='ShortTitle'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quisquam, esse expedita nostrum aperiam dolore repellat necessitatibus dolor earum alias.</p>
-                <h3 className='LongTitle'>Live with Sabbir Sun</h3>
+                <p className='ShortTitle'>{shortTitle.STitle3}</p>
+                <h3 className='LongTitle'>{longTitle.LTitle3}</h3>
                 <p className='ShortTitle'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis doloribus natus dolor asperiores non est!</p>
                 <p className='ChannelName'>Python</p>
                 <p className='ShortTitle'>12 February 2024</p>
