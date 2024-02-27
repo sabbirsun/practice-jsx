@@ -16,6 +16,7 @@ import './App.css';
 // import Form from './Pages/Form';
 // import Controlled from './Pages/Controlled';
 // import Expressions from './Pages/Expressions';
+import Card from './Pages/BlogWebsite/Card';
 import Carousel from './Pages/BlogWebsite/Carousel';
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
       <Controlled />
       <Expressions /> */}
       <Carousel />
+      <Card img="img/natural.jpg" />
     </>
   );
 }
