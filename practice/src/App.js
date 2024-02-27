@@ -1,27 +1,11 @@
 import './App.css';
-// import Home from './Pages/Home';
-// import About from './Pages/About';
-// import Contact from './Pages/Contact';
-// import Feedback from './Pages/Feedback';
-// import Fragment from './Pages/Fragment';
-// import React from 'react';
-// import Clipboardoncopy from './Pages/Clipboardoncopy';
-// import Focus from './Pages/Focus';
-// import Keyboard from './Pages/Keyboard';
-// import Fiter from './Pages/Fiter';
-// import WelComeAdmin from './Pages/WelComeAdmin'
-// import Style from './Pages/Style';
-// import ReactBootstrap from './Pages/ReactBootstrap';
-// import Input from './Pages/Input';
-// import Form from './Pages/Form';
-// import Controlled from './Pages/Controlled';
-// import Expressions from './Pages/Expressions';
 import Card from './Pages/BlogWebsite/Card';
 import Carousel from './Pages/BlogWebsite/Carousel';
 
 function App() {
   return (
     <>
+      {/* Pages/Components commented out */}
       {/* <Home />
       <About />
       <Contact />
@@ -38,8 +22,25 @@ function App() {
       <Form />
       <Controlled />
       <Expressions /> */}
+      
+      {/* Rendering Carousel */}
       <Carousel />
-      <Card img="img/natural.jpg" />
+
+      {/* Rendering Cards */}
+      <div className='container'>
+        <div className='row'>
+          <div className='col-md-4'>
+            <Card img="img/natural.jpg" title="Card title 1" p="Some quick example text to build on the card title and make up the bulk of the card's content." Btn="Go somewhere"/>
+          </div>
+          <div className='col-md-4'>
+            <Card img="img/road.jpg" title="Card title 1" p="Some quick example text to build on the card title and make up the bulk of the card's content." Btn="Go Anywhere"/>
+          </div>
+          <div className='col-md-4'>
+            <Card img="img/tree.jpg" title="Card title 1" p="Some quick example text to build on the card title and make up the bulk of the card's content." Btn="Go Anywhere"/>
+          </div>
+          {/* Add another col-md-4 here if needed */}
+        </div>
+      </div>
     </>
   );
 }

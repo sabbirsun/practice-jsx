@@ -66,7 +66,9 @@ function Carousel() {
         <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
           <span className="carousel-control-next-icon"></span>
         </button>
+        <h2 className='mt-5'>Recent Post</h2>
       </div>
+
     </div>
   );
 }
